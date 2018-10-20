@@ -1,1 +1,0 @@
-"# Gestionex-movil-app" 
