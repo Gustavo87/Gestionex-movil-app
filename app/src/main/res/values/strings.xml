@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Gestionex</string>
+    <string name="username_hint">Usuario</string>
+    <string name="pwd_hint">Contraseña</string>
+    <string name="login_btn_txt">Iniciar Sesión</string>
+    <string name="recoleccion_btn_txt">Proceso de Recolección</string>
+    <string name="disposicion_btn_txt">Proceso de Disposición</string>
+    <string name="inicio_recoleccion_btn_txt">Inicio de Recolección</string>
+    <string name="fin_recoleccion_btn_txt">Fin de Recolección</string>
+    <string name="inicio_disposicion_btn_txt">Inicio de Disposición</string>
+    <string name="ingresar_datos_disposicion_btn_txt">Datos de Disposición</string>
+    <string name="fin_disposicion_btn_txt">Fin de Disposición</string>
+    <string name="salir_btn_txt">Cerrar la sesión</string>
+    <string name="tonelada_input_text">Tonelada Dispuesta</string>
+    <string name="lugar_input_text">Lugar de Disposición</string>
+    <string name="Ingresar_Datos_btn_txt">Ingresar Datos</string>
+    <string name="licencia_txt">Copyright 2018 &#169; Todos los derechos reservados Gestionex</string>
+    <string name="titulo_confirm_cerrar_app">Cerrar la sesión</string>
+    <string name="mensaje_confirm_cerrar_app">Esta seguro que desea cerrar la sesión?</string>
+    <string name="Aceptar">Si</string>
+    <string name="Cancelar">No</string>
+    <string name="username_validation_msg">Usuario no puede estar vacío!</string>
+    <string name="pwd_validation_msg">Contraseña no puede estar vacía!</string>
+    <string name="credenciales_invalidas_msg">Credenciales Invalidas!</string>
+    <string name="autenticando_msg">Autenticando...</string>
+    <string name="enviando_msg">Enviando...</string>
+    <string name="sin_id_recoleccion_msg">Todavia no ha iniciado la recolección</string>
+    <string name="sin_id_disposicion_msg">Todavia no ha iniciado la disposición o no ha ingresado los datos de tonelas y lugar</string>
+</resources>

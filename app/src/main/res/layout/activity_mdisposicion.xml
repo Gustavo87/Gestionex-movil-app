@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.gbaca.appgestionex.mdisposicion">
+
+    <TextView
+        android:id="@+id/disposicionesPendientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:text=""
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp">
+
+        <ImageView
+            android:onClick="enviarDisposicionesPendientes"
+            android:layout_width="304dp"
+            android:layout_height="94dp"
+            android:src="@drawable/ic_map_pin"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:tint="#fff"
+            />
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/btnInicioDisposicion"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape"
+            android:text="@string/inicio_disposicion_btn_txt"
+            android:onClick="InicioDisposicion"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/btnIngresarDatosDisposicion"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape"
+            android:text="@string/ingresar_datos_disposicion_btn_txt"
+            android:onClick="IngresarDatosDisposicion"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/btnFinDisposicion"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape"
+            android:text="@string/fin_disposicion_btn_txt"
+            android:onClick="FinDisposicion"
+            android:textColor="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            >
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_alt_circle_left"
+                android:onClick="atras"
+                android:tint="#fff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="@string/licencia_txt"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</RelativeLayout>
